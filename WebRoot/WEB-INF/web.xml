@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Member</servlet-name>
+    <servlet-class>servlet.Member</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tongzhi</servlet-name>
+    <servlet-class>servlet.tongzhi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Tongzhi</servlet-name>
+    <servlet-class>servlet.Tongzhi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Biaodan</servlet-name>
+    <servlet-class>servlet.Biaodan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sjym</servlet-name>
+    <servlet-class>servlet.Sjym</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Hot</servlet-name>
+    <servlet-class>servlet.Hot</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Pic</servlet-name>
+    <servlet-class>servlet.Pic</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getCatlogServ</servlet-name>
+    <servlet-class>servlet.getCatlogServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServ</servlet-name>
+    <servlet-class>servlet.LoginServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Manage</servlet-name>
+    <servlet-class>servlet.Manage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addContentServ</servlet-name>
+    <servlet-class>servlet.addContentServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteContentServ</servlet-name>
+    <servlet-class>servlet.deleteContentServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateContentServ</servlet-name>
+    <servlet-class>servlet.updateContentServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateTimes</servlet-name>
+    <servlet-class>servlet.updateTimes</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getTimeServ</servlet-name>
+    <servlet-class>servlet.getTimeServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileImageUploadServlet</servlet-name>
+    <servlet-class>servlet.FileImageUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getContentPaixuServ</servlet-name>
+    <servlet-class>servlet.getContentPaixuServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getCatlogByCatId</servlet-name>
+    <servlet-class>servlet.getCatlogByCatId</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectCatlogByName</servlet-name>
+    <servlet-class>servlet.selectCatlogByName</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Member</servlet-name>
+    <url-pattern>/Member</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tongzhi</servlet-name>
+    <url-pattern>/tongzhi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Tongzhi</servlet-name>
+    <url-pattern>/Tongzhi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Biaodan</servlet-name>
+    <url-pattern>/Biaodan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sjym</servlet-name>
+    <url-pattern>/Sjym</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Hot</servlet-name>
+    <url-pattern>/Hot</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Pic</servlet-name>
+    <url-pattern>/Pic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getCatlogServ</servlet-name>
+    <url-pattern>/getCatlogServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServ</servlet-name>
+    <url-pattern>/LoginServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Manage</servlet-name>
+    <url-pattern>/Manage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addContentServ</servlet-name>
+    <url-pattern>/addContentServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteContentServ</servlet-name>
+    <url-pattern>/deleteContentServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateContentServ</servlet-name>
+    <url-pattern>/updateContentServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateTimes</servlet-name>
+    <url-pattern>/updateTimes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getTimeServ</servlet-name>
+    <url-pattern>/getTimeServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileImageUploadServlet</servlet-name>
+    <url-pattern>/FileImageUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getContentPaixuServ</servlet-name>
+    <url-pattern>/getContentPaixuServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getCatlogByCatId</servlet-name>
+    <url-pattern>/getCatlogByCatId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectCatlogByName</servlet-name>
+    <url-pattern>/selectCatlogByName</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

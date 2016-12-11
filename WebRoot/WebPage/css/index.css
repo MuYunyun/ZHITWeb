@@ -1,0 +1,99 @@
+/* CSS Document */
+.box-tz{height:300px}
+.box-tz .title{ background:url(../image/redian.gif) left bottom no-repeat; height:33px; line-height:33px; border-bottom:2px solid #4c9ccf; color:#0072bb; font-size:18px; padding-left:45px; margin-bottom:13px;}
+
+.box-tzr{}
+.box-tzr .title{ background:url(../image/tongzhi.gif) left bottom no-repeat; height:33px; line-height:33px; border-bottom:2px solid #4c9ccf; color:#0072bb; font-size:18px; padding-left:45px; margin-bottom:13px;}
+
+.box-content{height:245px};
+
+.in_news{ }
+.intit{ border-bottom:2px solid #4c9ccf;line-height:35px; height:35px; overflow:hidden; margin-bottom: px;}
+.intit span{ font-size:18px; color:#0072bb; font-weight:500; }
+.intit a{ color:#999; float:right;font-size:12px;line-height:35px;height:35px}
+.in_news ul li{ line-height:28px; height:28px;overflow: hidden  }
+.in_news ul li a{ padding-left:20px;display:block; background:url(../image/dian.gif) 5px center no-repeat;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-break:normal;word-wrap:normal; max-width:95%;}
+.in_news ul li span{ float:right; color:#888888; font-size:12px}
+
+.in_new ul li{ line-height:25px; height:25px;overflow: hidden  }
+.in_new ul li a{ padding-left:20px;display:block; background:url(../image/dian.gif) 5px center no-repeat;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-break:normal;word-wrap:normal; max-width:95%;font-size:13.5px;}
+.in_new ul li span{ float:right; color:#888888; font-size:12px}
+
+
+
+ /* banner */
+.banner { position:relative; width: 610px; height:330px; overflow: hidden; text-align: left; background: white;}
+.banner .pic img { width: 610px; height:330px; display: block; }
+.banner .txt-bg { position: absolute; bottom: 0; z-index: 1; height:55px; width:100%;  background: #333; filter: alpha(opacity=100); opacity: 0.4; overflow: hidden; }
+.banner .txt { position: absolute; bottom: 0; z-index: 2; height:55px; width:100%; overflow: hidden; }
+.banner .txt li{ height:55px; line-height:55px; position:absolute;}
+.banner .txt li a{ display: block; color: white; padding: 0 0 0 10px; font-size: 16px; font-weight:400; text-decoration: none; }
+.banner .num { position: absolute; z-index: 3; bottom:17px; right:3px;}
+.banner .num li{ float:left; position: relative; width:16px; height:14px; line-height:20px; overflow: hidden; text-align: center; margin-right:6px; cursor: pointer; }
+.banner .num li a { position: absolute; display: block; color: white; width: 100%; height: 100%; top: 0; left: 0; text-decoration:none;
+font-size:0px; background: #fff;}
+.banner .num li.on a{ background:#0072bb;}
+
+.banner-small{}
+.banner-small div{background: #eeeff1; padding: 10px;}
+.banner-small div h2{font-size: 16px;font-weight: 400; margin-bottom:10px; overflow: hidden; height:20px;}
+.banner-small div i{color: #969698;font-size: 12px;}
+
+.btn-icon{display:block; height:76px; line-height:76px; color:#ffffff; padding-left:85px; font-size:18px;font-weight: 400; margin-bottom:8.5px; }
+.btn-zj{ background: url(../images/icon-1.jpg) 10px center no-repeat #55bdf0; }
+.btn-auto{ background: url(../images/icon-2.jpg) 10px center no-repeat #ff8b58; }
+.btn-robot{ background: url(../images/icon-3.jpg) 10px center no-repeat #85c27c; }
+.btn-eq{ display:block;background: url(../images/icon-4.jpg) 10px center no-repeat #ecb632;line-height:25px;padding-left:85px; font-size:18px;font-weight: 400;height:46px;color:#ffffff; padding-top:15px; padding-bottom:15px;}
+.btn-icon:hover,.btn-eq:hover{filter:alpha(opacity=80); -moz-opacity:0.8; -khtml-opacity: 0.8; opacity: 0.8; color:#ffffff; text-decoration:none}
+
+.ad_postion{ width:1190px;}
+.ad_postion li{ float:left;width:184px; height:70px; margin-bottom:7px; }
+.ad_postion li a{display:block;}
+.ad_postion li a img{ border:1px solid #dddddd; width:184px; height:72px;}
+
+.toptab{ padding-top:10px;border-bottom:2px solid #4c9ccf;}
+.intitn{ border-bottom:2px solid #4c9ccf;line-height:35px; height:35px; overflow:hidden; margin-bottom: px;float:right}
+.intitn a{ color:#999; float:right;font-size:12px;line-height:35px;height:35px;}
+.toptab a{background: #;float: left; height: 40px;line-height: 40px; padding: 0 20px; font-size:18px; color:#999999; text-decoration:none}
+.toptab a:hover{background:#338ec9;color: #fff;}
+.toptab a.on{background:#338ec9;color: #fff;}
+
+.contab{}
+.contab ul li a{  max-width:75%;}
+.newstop{}
+.newstop h1{ width:100%; font-weight:normal}
+.newstop h1 a{ color:#ff3000; font-size:18px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-break:normal;word-wrap:normal; max-width:98%; display:block; text-align:center; height:50px; line-height:50px;}
+.newstop p{ font-size:12px; color:#666666; line-height:22px; height:44px; overflow:hidden; margin-bottom:10px;}
+.newstop p a{ color:000;}
+
+.in_pros{}
+.in_pros ul{ width:460px;}
+.in_pros ul li{float: left; margin-right:10px; margin-bottom:12px;}
+.in_pros ul li a{position: relative;}
+.in_pros ul li a img{display: block; width:130px; height:110px;}
+.in_pros ul li a:hover img{filter:alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity: 0.9;opacity: 0.9; }
+.in_pros ul li a span{position: absolute; bottom: 0; left: 0;color: #fff;background:rgba(0,0,0,0.5);width: 130px; height: 30px;line-height: 30px; padding:0 5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-break:normal;word-wrap:normal; max-width:120px;}
+
+
+.px_news ul{ width: px; height: px;  overflow:hidden}
+.px_news ul li{ width:100%;   line-height:28px; overflow:hidden; padding:2px 0;  }
+.px_news ul li a{ display:block; float:left; width:385px; padding-left:10px; line-height:24px; color:#4c4c4c; font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-break:normal;word-wrap:normal; max-width:385px;}
+.px_news ul li a:hover{ color:#ff6600;}
+.px_news ul li a span{ color:#999999; padding-left:5px; font-size:12px} 
+.px_news ul  p{ font-size:12px; line-height:22px; height:44px; overflow:hidden; margin:10px 0;}
+.px_news ul li span.n1{ float:left; display:block; width:15px; height:18px; background:url(../images/ico1.jpg) bottom no-repeat;}
+.px_news ul li span.n2{ float:left; display:block; width:15px; height:18px; background:url(../images/ico2.jpg) bottom no-repeat;}
+.px_news ul li span.n3{ float:left; display:block; width:15px; height:18px; background:url(../images/ico3.jpg) bottom no-repeat;}
+.px_news ul li span.n4{ float:left; display:block; width:15px; height:18px; background:url(../images/ico4.jpg) bottom no-repeat;}
+.px_news ul li span.n5{ float:left; display:block; width:15px; height:18px; background:url(../images/ico5.jpg) bottom no-repeat;}
+.px_news ul li span.n6{ float:left; display:block; width:15px; height:18px; background:url(../images/ico6.jpg) bottom no-repeat;}
+
+.link{ position:relative; height:30px; line-height:30px;}
+.link .link_line{ width:100%; display:block; height:2px; background:#4c9ccf; position: absolute; top:14px; }
+.link .link_tit{  z-index:2;position: absolute; left:px;width:100%}
+.link .link_tit span{color:#0072bb; font-size:18px; font-weight:500; text-align:center; display:block; border-left:2px solid #4c9ccf;border-right:2px solid #4c9ccf; width:100px; background:#ffffff; margin: auto;}
+.link_a,.link_a a{ color:#666666;}
+.link_a span{ padding:0 10px; color:#999999;}
+.link_img{}
+.link_img a{ float:left; display:block; margin-right:10px; margin-bottom:8px;}
+.link_img a img{ border:1px solid #dddddd; height:54px;}

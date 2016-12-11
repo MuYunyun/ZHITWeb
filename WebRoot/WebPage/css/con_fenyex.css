@@ -1,0 +1,13 @@
+.digg {
+ MARGIN: 3px; TEXT-ALIGN: center;
+}
+.digg A { border:1px solid #dfdfdf; background:#fff; margin:0 3px;
+COLOR: #9d9d9d; padding:0 14px;height:34px; text-align:center; line-height:34px;TEXT-DECORATION: none; display: inline-block; 
+}
+
+.digg A:active,.digg A:hover,.digg span.current { border:1px solid #0072bb; background:#0072bb;
+COLOR: #fff!important; padding:0 14px; height:34px; text-align:center; line-height:34px;display: inline-block; margin:0 3px;
+}
+.digg span.zzjs { margin:0 3px;
+border:1px solid #dfdfdf; background:#fff;
+COLOR: #cccccc; padding:0 14px;height:34px; text-align:center; line-height:34px;TEXT-DECORATION: none; display: inline-block;}

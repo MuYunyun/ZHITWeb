@@ -1,0 +1,28 @@
+*{margin:0px;padding:0px}
+#body{width:100%;height:631px;background: url('../images/shangjia.jpg') 0 -88px}
+#form{padding-left:37%;padding-top:17px}
+table{border-spacing:0 23px}
+.text{color:white;font-size:25px;font-weight:10px}
+.shadow {   
+            color:#88BCEO;
+			height:40px;width:300px;border:1px solid #83BADF;
+			-moz-box-shadow: inset 0 0 40px #83BADF;
+			-webkit-box-shadow: inset 0 0 40px #83BADF;
+			box-shadow: inset 0 0 40px #83BADF;
+		}
+button{display:block;width:150px;height:40px;  
+      background-color:rgb(238,246,251);
+	  border-radius:50px;
+	  font-size:20px;
+	  font-weight:20px;
+	  color:gray;
+	  text-align:center;
+	  line-height:40px;
+	   }
+.submit{
+	background: url('../images/zhuceanniu.jpg');
+	width:209px;
+	height:63px;
+	border:0 none;
+}
+
